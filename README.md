@@ -19,14 +19,20 @@ The analysis focuses on understanding the factors associated with operational in
 
 ```text
 Airline-Operations-Analytics/
-│
-├── data/
-│   └── [Raw dataset CSV]
-│
 ├── 01_Data_Quality_Assessment.ipynb
 ├── 02_Exploratory_Data_Analysis.ipynb
 └── README.md
 ```
+## Dataset
+
+- **Source:** Bureau of Transportation Statistics (BTS)
+- **Dataset:** Reporting Carrier On-Time Performance
+- **Period:** August 2026
+- **Format:** CSV (provided in ZIP archive)
+
+**Download:** [August 2026 Flight Data](https://transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_8.zip)
+
+The dataset contains U.S. airline flight records, including departure and arrival delays, cancellations, diversions, and delay causes.
 
 ## Project Workflow
 
